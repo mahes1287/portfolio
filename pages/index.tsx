@@ -14,6 +14,19 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="text-red-500">My portfolio website</h1>
+        {/* Header */}
+
+        {/* Hero */}
+
+        {/* About */}
+
+        {/* Experience */}
+
+        {/* Skills */}
+
+        {/* Projects */}
+
+        {/* Contact  */}
       </main>
     </>
   );
