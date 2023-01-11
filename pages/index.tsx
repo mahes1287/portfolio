@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Header />
 
-        <section className="snap-center" id="#hero">
+        <section className="mt-3 snap-start" id="#hero">
           <Hero />
         </section>
 
