@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import About from "../components/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +18,14 @@ export default function Home() {
       <main>
         <Header />
 
-        <section className="mt-3 snap-start" id="#hero">
+        <section className="snap-start" id="#hero">
           <Hero />
         </section>
 
         {/* About */}
-
+        <section className="snap-center" id="about">
+          <About />
+        </section>
         {/* Experience */}
 
         {/* Skills */}
