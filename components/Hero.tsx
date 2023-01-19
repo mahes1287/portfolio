@@ -24,16 +24,14 @@ export default function Hero({}: Props) {
         height={100}
       />
       <div>
-        <h1>
-          <h2 className="pb-3 text-sm uppercase tracking-[15px] text-gray-300">
-            Javascript Developer
-          </h2>
-          <p className="px-5 text-5xl font-semibold lg:text-6xl">
-            <span className="mr-3">{text}</span>
+        <h2 className="pb-3 text-sm uppercase tracking-[15px] text-gray-300">
+          Javascript Developer
+        </h2>
+        <p className="px-5 text-5xl font-semibold lg:text-6xl">
+          <span className="mr-3">{text}</span>
 
-            <Cursor cursorColor="#F7AB0A" />
-          </p>
-        </h1>
+          <Cursor cursorColor="#F7AB0A" />
+        </p>
       </div>
       <div className="z-20 pt-5">
         <Link href="#about">

@@ -24,9 +24,9 @@ export default function ExperienceCard({ experience }: Props) {
     skills,
     summary,
   } = experience;
-
+  console.log(companyLogo);
   return (
-    <article className="flex w-[500px] flex-shrink-0 cursor-pointer   snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] px-0 opacity-40 transition-opacity duration-200 hover:opacity-100 md:w-[600px] md:px-10 xl:w-[900px]">
+    <article className="mt-30 flex w-[500px] flex-shrink-0 cursor-pointer   snap-center flex-col items-center space-y-7 overflow-hidden rounded-lg bg-[#292929] px-0 opacity-40 transition-opacity duration-200 hover:opacity-100 md:w-[600px] md:px-10 xl:w-[900px]">
       {/* <div className="h-32 w-32 rounded-full">
         <Image
           src={companyLogo}
@@ -60,9 +60,10 @@ export default function ExperienceCard({ experience }: Props) {
             src={skill.img}
             alt={skill.alt}
             className="h-10 w-10 rounded-lg object-center"
-          ></img>
+          />
         ))}
       </div>
+
       <Link href={companyLink}>
         <p>@ {companyName}</p>
       </Link>
@@ -78,3 +79,5 @@ export default function ExperienceCard({ experience }: Props) {
     </article>
   );
 }
+
+// TODO fix the company logo transition problem
