@@ -14,6 +14,7 @@ export default function Contact({}: Props) {
           Incase, I have got what you need, then{" "}
           <span className="underline decoration-[#F7AB0A]/50">Lets talk</span>
         </h4>
+
         <div className="space-y-4">
           <div className="flex items-center justify-center space-x-5 text-center">
             <PhoneIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
@@ -28,6 +29,21 @@ export default function Contact({}: Props) {
             <p className="text-2xl">Fasangarten, Munich, Germany</p>
           </div>
         </div>
+
+        <form className="mx-auto flex w-fit flex-col space-y-2">
+          <div className="flex space-x-2">
+            <input placeholder="Name" className="contactInput" type="text" />
+            <input placeholder="Email" className="contactInput" type="email" />
+          </div>
+          <input placeholder="Subject" className="contactInput" type="text" />
+          <textarea placeholder="Message" className="contactInput" />
+          <button
+            type="submit"
+            className="rounded-md bg-[#F7AB0A] px-4 py-4 text-lg font-bold text-black"
+          >
+            Submit
+          </button>
+        </form>
       </div>
     </div>
   );
