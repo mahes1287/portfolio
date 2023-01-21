@@ -54,6 +54,11 @@ export default function Hero({}: Props) {
             Projects
           </button>
         </Link>
+        <Link href="#contact">
+          <button className="rounded-full border border-[#242424] px-6 py-2 text-sm uppercase tracking-widest text-gray-300 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/70">
+            Contact
+          </button>
+        </Link>
       </div>
     </div>
   );
