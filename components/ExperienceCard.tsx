@@ -2,6 +2,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+type Skill = {
+  img: string;
+  alt: string;
+};
+
 type Props = {
   title: string;
   companyLogo: string;
@@ -9,11 +14,11 @@ type Props = {
   companyName: string;
   companyLink: string;
   companyBio: string;
-  skills: string[];
+  skills: Skill[];
   summary: string[];
 };
 
-export default function ExperienceCard({ experience }: Props) {
+export default function ExperienceCard({ experience }: { experience: Props }) {
   const {
     title,
     companyLogo,

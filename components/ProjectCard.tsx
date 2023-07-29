@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 import React from "react";
 
 type Props = {
-  i: Number;
-  length: Number;
-  image: String;
-  title: String;
-  description: String;
+  i: number;
+  length: number;
+  image: string;
+  title: string;
+  description: string;
 };
 
 export default function ProjectCard({

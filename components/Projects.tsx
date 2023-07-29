@@ -4,13 +4,13 @@ import ProjectCard from "./ProjectCard";
 
 type Props = {};
 
-type Project = {
-  image: String;
-  title: String;
-  description: String;
+type ProjectProps = {
+  image: string;
+  title: string;
+  description: string;
 };
 export default function Projects({}: Props) {
-  const [projects, setProjects] = useState();
+  const [projects, setProjects] = useState<ProjectProps[]>([]);
   useEffect(() => {
     setProjects(projectsData);
   }, []);
@@ -20,7 +20,7 @@ export default function Projects({}: Props) {
       <h3 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-400 scrollbar-thin scrollbar-track-gray-400/30 scrollbar-thumb-[#F7AB0A]/80">
         Projects
       </h3>
-      <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-y-hidden overflow-x-scroll">
+      <div className="relative z-20 flex w-full snap-x snap-mandatory overflow-x-scroll overflow-y-hidden">
         {projects?.map((project, j) => {
           let i = j + 1;
           let length = projects.length;

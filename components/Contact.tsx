@@ -1,6 +1,12 @@
-import React from "react";
 import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/solid";
-import { useForm } from "react-hook-form";
+import { SubmitHandler, useForm } from "react-hook-form";
+type formDataProps = {
+  subject: string;
+  name: string;
+  message: string;
+  email: string;
+};
+
 type Props = {};
 
 export default function Contact({}: Props) {
@@ -9,8 +15,8 @@ export default function Contact({}: Props) {
     handleSubmit,
     watch,
     formState: { errors },
-  } = useForm();
-  const onSubmit = (formData) => {
+  } = useForm<formDataProps>();
+  const onSubmit: SubmitHandler<formDataProps> = (formData) => {
     window.location.href = `mailto:mahes1287@gmail.com?subject=${formData.subject}&body=Hi my name is ${formData.name}. ${formData.message} (${formData.email})`;
   };
   return (
@@ -39,7 +45,7 @@ export default function Contact({}: Props) {
           <div className="flex items-center justify-center space-x-5 text-center">
             <MapPinIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
             <p className="text-2xl hover:text-[#F7AB0A]">
-              Fasangarten, Munich, Germany
+              Groshadern, Munich, Germany
             </p>
           </div>
         </div>
