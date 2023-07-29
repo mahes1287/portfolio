@@ -7,3 +7,5 @@ Nextjs
 tailwindcss
 
 framermotion
+
+react-hook-form

@@ -11,7 +11,7 @@ export default function WorkExperience({}: Props) {
     console.log(experiences);
   }, []);
   return (
-    <div className="relative flex h-screen flex-col items-center justify-center overflow-hidden text-center md:flex-row">
+    <div className="relative flex h-screen flex-col items-center justify-center overflow-hidden scrollbar-thin scrollbar-track-gray-400/30 scrollbar-thumb-[#F7AB0A]/80 text-center md:flex-row">
       <h4 className="absolute top-24 text-2xl uppercase tracking-[20px] text-gray-400">
         Experience
       </h4>
