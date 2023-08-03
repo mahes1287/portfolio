@@ -29,7 +29,7 @@ export default function About({}: Props) {
         ></Image>
       </motion.div>
 
-      <div className="text-gray-200 md:px-10">
+      <div className="mt-3 text-gray-200 md:px-10">
         <h4 className="text-2xl ">
           Here is my{" "}
           <span className="inline-flex underline decoration-lime-200">
@@ -37,9 +37,9 @@ export default function About({}: Props) {
           </span>{" "}
           background
         </h4>
-        <p className="text-base">
-          I am <strong>Maheshwaran Velusamy</strong>. I like to be known as
-          Javascript Developer. I have more than a year of experience in
+        <p className="text-md mt-4">
+          I am <strong>Maheshwaran Velusamy</strong>. I Love (❤️) to build
+          things in the Javascript. I have more than a year of experience in
           developing and writing server-side web application logic for back-end
           as well as front end components for eLearning and covid test sample
           tracking web apps that were released within deadlines.
