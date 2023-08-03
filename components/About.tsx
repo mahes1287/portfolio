@@ -39,10 +39,10 @@ export default function About({}: Props) {
         </h4>
         <p className="text-base">
           I am <strong>Maheshwaran Velusamy</strong>. I like to be known as
-          Javascript Developer.I have more than a year experience in developing
-          and writing server-side web application logic for back-end as well as
-          front end components for eLearning and covid test sample tracking web
-          apps that were released within deadlines.
+          Javascript Developer. I have more than a year of experience in
+          developing and writing server-side web application logic for back-end
+          as well as front end components for eLearning and covid test sample
+          tracking web apps that were released within deadlines.
         </p>
       </div>
     </motion.div>
