@@ -1,5 +1,17 @@
+import ciCdLine from "@iconify/icons-clarity/ci-cd-line";
+import css3 from "@iconify/icons-logos/css-3";
+import djangoIcon from "@iconify/icons-skill-icons/django";
+import dockerIcon from "@iconify/icons-logos/docker";
+import fileSqlBold from "@iconify/icons-ph/file-sql-bold";
+import firebaseIcon from "@iconify/icons-logos/firebase";
+import javascriptIcon from "@iconify/icons-logos/javascript";
+import pythonIcon from "@iconify/icons-logos/python";
 import React from "react";
-
+import reactIcon from "@iconify/icons-logos/react";
+import reduxIcon from "@iconify/icons-skill-icons/redux";
+import styledcomponentsIcon from "@iconify/icons-skill-icons/styledcomponents";
+import tailwindcssDark from "@iconify/icons-skill-icons/tailwindcss-dark";
+import { Icon } from "@iconify/react";
 
 type Props = {};
 
@@ -29,7 +41,65 @@ const ExperienceTimeline = (props: Props) => {
           {/* item 2 - bootcamp*/}
 
           <div className="right-timeline mb-8 flex w-full items-center justify-between  border-l-red-700">
-            <div className="order-1 w-5/12"> </div>
+            <div className="order-1 flex w-5/12 flex-wrap items-center justify-center gap-4">
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon
+                  icon={javascriptIcon}
+                  className="h-6 w-6 md:h-14 md:w-14"
+                />
+                <p className="text-xs">Javascript</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={reactIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">React</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={reduxIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">Redux</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={css3} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">CSS3</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon
+                  icon={styledcomponentsIcon}
+                  className="h-6 w-6 md:h-14 md:w-14"
+                />
+                <p className="text-xs">Styled Components</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon
+                  icon={tailwindcssDark}
+                  className="h-6 w-6 md:h-14 md:w-14"
+                />
+                <p className="text-xs">Tailwind CSS</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={pythonIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">Python</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={djangoIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">Django</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={fileSqlBold} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">SQL</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={firebaseIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">Firebase</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={ciCdLine} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">CI/CD</p>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-1">
+                <Icon icon={dockerIcon} className="h-6 w-6 md:h-14 md:w-14" />
+                <p className="text-xs">Docker</p>
+              </div>
+            </div>
             <div className="order-1  w-5/12 px-1 py-4 text-left">
               <p className="mb-3 text-base text-yellow-300">
                 MAY 2023 - JUL 2023 (3 months)
