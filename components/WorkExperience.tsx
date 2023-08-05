@@ -29,13 +29,13 @@ export default function WorkExperience({}: Props) {
       </h1> */}
       <section>
         <div className="bg-black py-8 text-white">
-          <div className="container mx-auto my-12 flex flex-col items-start md:my-24 md:flex-row">
-            <div className="sticky mt-2 flex w-full flex-col px-8 md:top-36 md:mt-12 lg:w-1/3">
+          <div className="container mx-auto my-6 flex flex-col items-start md:my-24 md:flex-row">
+            <div className=" sticky  top-20 mt-2 flex w-full flex-col px-8 md:top-36 md:mt-12 lg:w-1/3">
               <p className="tracking-loose ml-2 uppercase text-yellow-300">
                 Experience
               </p>
-              <p className="mb-2 text-3xl leading-normal md:text-4xl md:leading-relaxed">
-                This contains my experience with explanation for the gap.
+              <p className="mb-2 text-sm leading-normal md:text-2xl md:leading-relaxed">
+                This is the brief view of my journey after my formal education.
               </p>
             </div>
             <ExperienceTimeline />

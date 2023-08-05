@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="z-0 h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll bg-[rgb(36,36,36)]   text-white scrollbar-thin scrollbar-track-gray-400/30 scrollbar-thumb-[#F7AB0A]/80">
+    <div className="z-0 h-screen snap-y snap-mandatory overflow-y-scroll bg-[rgb(36,36,36)] text-white   overflow-x-hidden scrollbar-thin scrollbar-track-gray-400/30 scrollbar-thumb-[#F7AB0A]/80">
       <Head>
         <title>Maheshwaran Velusamy Portfolio</title>
         <meta name="description" content="Built by maheshwaran velusamy" />
@@ -30,7 +30,7 @@ export default function Home() {
           <About />
         </section>
 
-        <section id="experience" className="snap-center">
+        <section id="experience" className="snap-start">
           <WorkExperience />
         </section>
 
