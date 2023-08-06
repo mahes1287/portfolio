@@ -260,7 +260,7 @@ const ExperienceTimeline = (props: Props) => {
               </h4>
               <p className="text-sm leading-snug text-gray-50 text-opacity-100 md:text-base">
                 MyAbhyas is an e-learning platform for school students.
-                Performed backend role and developed RESTful API's with Node.js,
+                Performed backend role and developed RESTful APIs with Node.js,
                 express.js, Mongodb and Mongoose and integrating with the front
                 end. Developed Admin Panel for monitoring the student
                 performance and attendance details with React.js. Consulted with
@@ -365,8 +365,9 @@ const ExperienceTimeline = (props: Props) => {
 
         {/* bottom */}
         <img
-          className="-mt-41 mx-auto "
-          src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
+          className="-mt-41 mx-auto"
+          src="rocketman.png"
+          alt="a man sitting near to rocket image"
         />
       </div>
     </div>

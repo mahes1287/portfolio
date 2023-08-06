@@ -21,8 +21,8 @@ export default function About({}: Props) {
         transition={{ duration: 1.2 }}
       >
         <Image
-          src="/photo.JPG"
-          alt="my image"
+          src="/photo.avif"
+          alt="my profile image"
           width={100}
           height={100}
           className="md:h-92 mt-20 h-32 w-32 flex-shrink-0 rounded-full object-cover md:mt-0 md:w-52 md:rounded-lg"
