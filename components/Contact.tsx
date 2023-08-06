@@ -34,7 +34,7 @@ export default function Contact({}: Props) {
         <div className="space-y-1 md:space-y-2">
           <div className="flex items-center justify-center space-x-5 text-center">
             <PhoneIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
-            <p className="text-xl hover:text-[#F7AB0A]">+49-15510048133</p>
+            <p className="text-xl hover:text-[#F7AB0A]">+49-15168553984</p>
           </div>
           <div className="flex items-center justify-center space-x-5 text-center">
             <EnvelopeIcon className="h-6 w-6 animate-bounce text-[#F7AB0A]" />
@@ -44,9 +44,7 @@ export default function Contact({}: Props) {
           </div>
           <div className="flex items-center justify-center space-x-2 text-center md:space-x-5">
             <MapPinIcon className="h-6 w-6 animate-pulse text-[#F7AB0A]" />
-            <p className="text-xl hover:text-[#F7AB0A]">
-              Großhadern, München, Germany
-            </p>
+            <p className="text-xl hover:text-[#F7AB0A]">München, Germany</p>
           </div>
         </div>
 
