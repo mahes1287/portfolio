@@ -1,26 +1,26 @@
 export const projectsData = [
   {
-    image: "/projects/project1.jpeg",
-    title: "Youtube clone app",
+    image: "/projects/skiline/skiline-overview.png",
+    title: "Skiline - Connect",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis atque tenetur quo eligendi aperiam, accusantium, iure sint id, est dolores velit illo ullam nesciunt vel doloremque. Incidunt officiis quae id optio delectus quis blanditiis sit praesentium atque ratione sed maxime et ducimus perferendis, distinctio mollitia sapiente dolor error deserunt.",
+      "App to locate skiers and plan meeting points effectively through the app. Built this feature part of the existing project. This app was built collaboratively during bootcamp.",
+    screens: [],
+    frontend: ["react", "tailwindcss"],
+    backend: ["firebase"],
+    weblink: "https://skiline-connect.web.app/",
+    frontendRepo: "",
+    backendRepo: "",
   },
   {
-    image: "/projects/project2.png",
-    title: "Netflix clone app",
+    image: "/projects/crud/list.png",
+    title: "Simple crud application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis atque tenetur quo eligendi aperiam, accusantium, iure sint id, est dolores velit illo ullam nesciunt vel doloremque. Incidunt officiis quae id optio delectus quis blanditiis sit praesentium atque ratione sed maxime et ducimus perferendis, distinctio mollitia sapiente dolor error deserunt.",
-  },
-  {
-    image: "/projects/project1.jpeg",
-    title: "Youtube clone app 2222222222",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis atque tenetur quo eligendi aperiam, accusantium, iure sint id, est dolores velit illo ullam nesciunt vel doloremque. Incidunt officiis quae id optio delectus quis blanditiis sit praesentium atque ratione sed maxime et ducimus perferendis, distinctio mollitia sapiente dolor error deserunt.",
-  },
-  {
-    image: "/projects/project2.png",
-    title: "Netflix clone app 222222222222",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate omnis atque tenetur quo eligendi aperiam, accusantium, iure sint id, est dolores velit illo ullam nesciunt vel doloremque. Incidunt officiis quae id optio delectus quis blanditiis sit praesentium atque ratione sed maxime et ducimus perferendis, distinctio mollitia sapiente dolor error deserunt.",
+      "This is an app to carry out the translations with standard CRUD operations.",
+    screens: [],
+    frontend: ["react", "tailwindcss"],
+    backend: ["django"],
+    weblink: "https://scintillating-fox-b0f291.netlify.app",
+    frontendRepo: "https://github.com/mahes1287/simple-crud-frontend-react",
+    backendRepo: "https://github.com/mahes1287/simple-crud-backend-django",
   },
 ];

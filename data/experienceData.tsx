@@ -39,6 +39,22 @@ export const experienceData = [
   {
     title: "Research Associate",
     companyLogo: "/imtech.jpg",
+    duration: "JUNE 2022 - MAY 2022",
+    companyName: "Prenetics innovation lab, Chennai, India",
+    companyLink: "https://www.prenetics.com",
+    companyBio:
+      "A life science company, covid testing is one of their products.",
+    skills: [
+      { img: "/skills/js.png", alt: "javascript" },
+      { img: "/skills/expressjs.png", alt: "express.js" },
+      { img: "/skills/react.png", alt: "reactjs" },
+      { img: "/skills/mongodb.png", alt: "mongodb" },
+    ],
+    summary: ["Developed REST API for backend", "Built UI using Reactjs"],
+  },
+  {
+    title: "Research Associate",
+    companyLogo: "/imtech.jpg",
     duration: "SEP 2021 - MAY 2022",
     companyName: "Prenetics innovation lab, Chennai, India",
     companyLink: "https://www.prenetics.com",

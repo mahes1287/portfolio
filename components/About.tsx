@@ -21,15 +21,15 @@ export default function About({}: Props) {
         transition={{ duration: 1.2 }}
       >
         <Image
-          src="/photo.JPG"
-          alt="my image"
+          src="/photo.avif"
+          alt="my profile image"
           width={100}
           height={100}
           className="md:h-92 mt-20 h-32 w-32 flex-shrink-0 rounded-full object-cover md:mt-0 md:w-52 md:rounded-lg"
         ></Image>
       </motion.div>
 
-      <div className="text-gray-200 md:px-10">
+      <div className="mt-3 text-gray-200 md:px-10">
         <h4 className="text-2xl ">
           Here is my{" "}
           <span className="inline-flex underline decoration-lime-200">
@@ -37,12 +37,12 @@ export default function About({}: Props) {
           </span>{" "}
           background
         </h4>
-        <p className="text-base">
-          I am <strong>Maheshwaran Velusamy</strong>. I like to be known as
-          Javascript Developer.I have more than a year experience in developing
-          and writing server-side web application logic for back-end as well as
-          front end components for eLearning and covid test sample tracking web
-          apps that were released within deadlines.
+        <p className="text-md mt-4">
+          I am <strong>Maheshwaran Velusamy</strong>. I Love (❤️) to build
+          things in the Javascript. I have more than a year of experience in
+          developing and writing server-side web application logic for back-end
+          as well as front end components for eLearning and covid test sample
+          tracking web apps that were released within deadlines.
         </p>
       </div>
     </motion.div>
