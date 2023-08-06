@@ -4,11 +4,26 @@
 
 @layer components {
   .contactInput {
-    @apply rounded-sm border-b border-[#242424] bg-slate-400/10 px-6 py-4 text-gray-300 placeholder-gray-500 outline-none transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A] hover:border-[#F7AB0A]/40;
+    @apply rounded-sm border-b border-[#242424] bg-slate-400/10 px-5 py-3 text-gray-300 placeholder-gray-500 outline-none transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A] hover:border-[#F7AB0A]/40;
   }
 }
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   display: none;
+} */
+
+@layer utilities {
+  @variants responsive {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
 }
