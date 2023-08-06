@@ -12,7 +12,7 @@ export const projectsData = [
     backendRepo: "",
   },
   {
-    image: "/projects/project2.png",
+    image: "/projects/crud/list.png",
     title: "Simple crud application",
     description:
       "This is an app to carry out the translations with standard CRUD operations.",
