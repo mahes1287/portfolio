@@ -39,7 +39,7 @@ export default function About({}: Props) {
         </h4>
         <p className="text-md mt-4">
           I am <strong>Maheshwaran Velusamy</strong>. I Love (❤️) to build
-          things in the Javascript. I have more than a year of experience in
+          things in Javascript. I have more than a year of experience in
           developing and writing server-side web application logic for back-end
           as well as front end components for eLearning and covid test sample
           tracking web apps that were released within deadlines.

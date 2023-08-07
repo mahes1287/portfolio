@@ -27,7 +27,7 @@ export default function Contact({}: Props) {
 
       <div className="mt-24 flex flex-col space-y-8 sm:px-5 md:mt-40">
         <h4 className="text-md text-center font-semibold md:text-2xl">
-          Incase, I have got what you need, then{" "}
+          In case I have what you want, then{" "}
           <span className="underline decoration-[#F7AB0A]/50">Lets talk</span>
         </h4>
 
