@@ -41,7 +41,7 @@ export default function About({}: Props) {
           I am <strong>Maheshwaran Velusamy</strong>. I Love (❤️) to build
           things in Javascript. I have more than a year of experience in
           developing and writing server-side web application logic for back-end
-          as well as front end components for eLearning and covid test sample
+          as well as front-end components for e-Learning and covid test sample
           tracking web apps that were released within deadlines.
         </p>
       </div>
