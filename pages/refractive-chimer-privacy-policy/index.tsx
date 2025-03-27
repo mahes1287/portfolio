@@ -4,10 +4,10 @@ export default function PrivacyPolicy() {
   return (
     <div className="container mx-auto max-w-3xl px-4 py-8">
       <Head>
-        <title>Privacy Policy - Refractive Chimer Journal</title>
+        <title>Privacy Policy - Refractive Mindful chimer</title>
         <meta
           name="description"
-          content="Privacy policy for Refractive Chimer Journal"
+          content="Privacy policy for Refractive Mindful chimer"
         />
       </Head>
 
@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
           <section className="mb-6">
             <h2 className="mb-3 text-xl font-semibold">Data Collection</h2>
             <p>
-              Refractive Chimer Journal does not collect, store, or process any
+              Refractive Mindful chimer does not collect, store, or process any
               personal data from its users. The application operates entirely on
               your local device and does not transmit any information to
               external servers.
